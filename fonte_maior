@@ -1,0 +1,4 @@
+/* Este CSS aumenta a fonte do texto desejado */
+.item-list li {
+    font-size: 16px; /* Tamanho da fonte desejado, ajuste conforme necessário */
+}

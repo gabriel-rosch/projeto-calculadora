@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Arial Italic'), local('Arial-Italic'), url(https://web.archive.org/web/20180506045730im_/http://fonts.gstatic.com/s/lato/v14/S6u8w4BMUTPHjxsAXC-v.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arial';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Arial Bold Italic'), local('Arial-BoldItalic'), url(https://web.archive.org/web/20180506045730im_/http://fonts.gstatic.com/s/lato/v14/S6u_w4BMUTPHjxsI5wq_Gwfo.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arial Regular'), local('Arial-Regular'), url(https://web.archive.org/web/20180506045730im_/http://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arial Bold'), local('Arial-Bold'), url(https://web.archive.org/web/20180506045730im_/http://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+
+

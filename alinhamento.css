@@ -1,0 +1,45 @@
+/* Estilizando a seção Alinhamento de Expectativas */
+
+/* Título */
+h1.text-center {
+    color: #333; /* Cor do título */
+    font-size: 24px; /* Tamanho da fonte do título */
+    margin: 20px 0; /* Margem superior e inferior do título */
+}
+
+/* Texto principal */
+p {
+    font-size: 16px; /* Tamanho da fonte do texto principal */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    text-align: justify; /* Texto justificado */
+}
+
+/* Itens com ícones */
+h4 {
+    color: #333; /* Cor do título */
+    font-size: 18px; /* Tamanho da fonte do título */
+}
+
+/* Lista de itens */
+ul.item-list {
+    list-style: none; /* Remova as bolinhas da lista */
+}
+
+/* Itens da lista */
+li {
+    padding-left: 20px; /* Espaçamento à esquerda para os itens da lista */
+    position: relative;
+}
+
+/* Ícones */
+li::before {
+    content: ""; /* Crie um conteúdo vazio antes dos itens da lista */
+    width: 15px; /* Largura do ícone */
+    height: 15px; /* Altura do ícone */
+    background: url('arquivos/icone.png') no-repeat; /* Adicione a imagem do ícone aqui */
+    background-size: cover; /* Ajuste o tamanho da imagem do ícone */
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 2px;
+}

@@ -1,0 +1,13 @@
+#whatsapp-container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1999; /* Certifica-se de que o ícone fique acima de outros elementos */
+  }
+  
+  #whatsapp-container a {
+    display: block; /* Isso garante que o link ocupe todo o espaço do ícone */
+  }
+  
+
+  

@@ -1,0 +1,32 @@
+
+article {
+    background-color: #f2f2f2; /* Cor de fundo do artigo */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Borda com cor cinza */
+}
+
+/* Estilos para a lista não ordenada dentro do artigo */
+.article ul.box-list {
+    list-style: none; /* Remover os marcadores padrão da lista */
+    padding: 0; /* Remover o preenchimento padrão da lista */
+}
+
+/* Estilos para cada item da lista */
+.article ul.box-list li {
+    display: flex; /* Usar flexbox para alinhar os elementos horizontalmente */
+    margin-bottom: 20px; /* Espaçamento inferior entre os itens da lista */
+}
+
+/* Estilos para as imagens nos itens da lista */
+.article ul.box-list li img {
+    width: 50px; /* Largura da imagem */
+    height: 50px; /* Altura da imagem */
+    margin-right: 10px; /* Espaçamento à direita da imagem */
+}
+
+/* Estilos para os títulos nos itens da lista */
+.article ul.box-list li .heading-h3 {
+    font-size: 18px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Texto em negrito */
+    margin-bottom: 10px; /* Espaçamento inferior abaixo do título */
+}

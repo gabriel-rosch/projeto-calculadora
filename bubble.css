@@ -1,0 +1,186 @@
+.bubble {
+  position:relative;
+  width:100%;
+  height:auto;
+  padding:12px;
+  background:#FFFFFF;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  border:solid 2px;
+  margin-top:21px;
+}
+
+.bubble.right:after {
+  content:'';
+  position:absolute;
+  border-style:solid;
+  border-width:13px 19px 13px 0;
+  border-color:transparent #ffffff;
+  display:block;
+  width:0;
+  z-index:1;
+  left:-18px;
+  top:35px;
+}
+
+.bubble.right:before {
+  content:'';
+  position:absolute;
+  border-style:solid;
+  border-width:14px 20px 14px 0;
+  border-color:transparent black;
+  display:block;
+  width:0;
+  z-index:0;
+  left:-22px;
+  top:34px;
+}
+
+.bubble.left:after {
+  content:'';
+  position:absolute;
+  border-style:solid;
+  border-width:13px 0px 13px 19px;
+  border-color:transparent #FFFFFF;
+  display:block;
+  width:0;
+  z-index:1;
+  right:-18px;
+  top:35px;
+}
+
+.bubble.left:before {
+  content:'';
+  position:absolute;
+  border-style:solid;
+  border-width:14px 0px 14px 20px;
+  border-color:transparent black;
+  display:block;
+  width:0;
+  z-index:0;
+  right:-22px;
+  top:34px;
+}
+
+.visitas .bubble.right {
+  border-color:#61CE70 ;
+}
+
+.visitas .bubble.right:before {
+  border-color:transparent #61CE70 ;
+}
+
+.conversao-visitas .bubble.left {
+  border-color:#61CE70 ;
+}
+
+.conversao-visitas .bubble.left {
+  border-color:#61CE70;
+}
+
+.conversao-visitas .bubble.left:before {
+  border-color:transparent #61CE70 ;
+}
+
+.pedidos-capturados .bubble.right {
+  border-color:#61CE70 ;
+}
+
+.pedidos-capturados .bubble.right:before {
+  border-color:transparent #61CE70 ;
+}
+
+.ticket-medio .bubble.left {
+  border-color:#61CE70 ;
+}
+
+.ticket-medio .bubble.left:before {
+  border-color:transparent #004983;
+}
+
+.valor-capturado .bubble.right {
+  border-color:#61CE70 ;
+}
+
+.valor-capturado .bubble.right:before {
+  border-color:transparent #61CE70 ;
+}
+
+.conversao-pagto .bubble.left {
+  border-color:#61CE70 ;
+}
+
+.conversao-pagto .bubble.left:before {
+  border-color:transparent #61CE70 ;
+}
+
+div.input-group {
+  font-family:'Lato', "Helvetica Neue", Helvetica, Montserrat, sans-serif;
+}
+
+ul li {
+  font-size:18px;
+  margin-bottom:6px;
+}
+
+body.pdf #planeje {
+  background:#fff;
+}
+
+body.pdf .funil label {
+  background:#fff;
+}
+
+body.pdf hr.arrow-primary:after {
+  background:#fff;
+}
+
+body.pdf input#pay.form-control.text-center {
+  background:transparent;
+}
+
+body.pdf header {
+  background:#fff;
+  color:#888;
+}
+
+body.pdf footer .footer-above {
+  background:#fff;
+  color:#888;
+}
+
+.nav > li {
+  font-size:16px;
+}
+
+.faturamento .bubble.right {
+  border-color: #61CE70 ;
+}
+
+.faturamento .bubble.right:before {
+  border-color:transparent #61CE70 ;
+}
+
+#form-newsletter-e-commerce-plan-ecommerceplan-com-br-87264807ea4d0c7bfd6f {
+  padding:0 !important;
+  font-family:'Assistant', 'Helvetica Neue', Helvetica, Montserrat, sans-serif !important;
+}
+
+#form-newsletter-e-commerce-plan-ecommerceplan-com-br-87264807ea4d0c7bfd6f #conversion-newsletter-e-commerce-plan-ecommerceplan-com-br-87264807ea4d0c7bfd6f section input, #conversion-newsletter-e-commerce-plan-ecommerceplan-com-br-87264807ea4d0c7bfd6f form input {
+  padding:10px 16px !important;
+  font-size:18px !important;
+  height:60px !important;
+  font-family:'Assistant', 'Helvetica Neue', Helvetica, Montserrat, sans-serif !important;
+  border-radius:0 !important;
+}
+
+#form-newsletter-e-commerce-plan-ecommerceplan-com-br-87264807ea4d0c7bfd6f #conversion-newsletter-e-commerce-plan-ecommerceplan-com-br-87264807ea4d0c7bfd6f #conversion-form-newsletter-e-commerce-plan-ecommerceplan-com-br-87264807ea4d0c7bfd6f p.notice {
+  text-align:center !important;
+  font-family:'Assistant', 'Helvetica Neue', Helvetica, Montserrat, sans-serif !important;
+}
+
+#form-newsletter-e-commerce-plan-ecommerceplan-com-br-87264807ea4d0c7bfd6f #conversion-newsletter-e-commerce-plan-ecommerceplan-com-br-87264807ea4d0c7bfd6f section div.actions {
+  padding:0 !important;
+}
+

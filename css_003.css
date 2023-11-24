@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Arial Light'), local('Arial-Light'), url(https://web.archive.org/web/20180506111306im_/https://fonts.gstatic.com/s/assistant/v2/2sDZZGJYnIjSi6H75xk7w0esBJ0d.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arial'), local('Arial-Regular'), url(https://web.archive.org/web/20180506111306im_/https://fonts.gstatic.com/s/assistant/v2/2sDcZGJYnIjSi6H75xkzaGW8.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Arial SemiBold'), local('Arial-SemiBold'), url(https://web.archive.org/web/20180506111306im_/https://fonts.gstatic.com/s/assistant/v2/2sDZZGJYnIjSi6H75xk7t0GsBJ0d.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arial Bold'), local('Arial-Bold'), url(https://web.archive.org/web/20180506111306im_/https://fonts.gstatic.com/s/assistant/v2/2sDZZGJYnIjSi6H75xk700CsBJ0d.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Arial ExtraBold'), local('Arial-ExtraBold'), url(https://web.archive.org/web/20180506111306im_/https://fonts.gstatic.com/s/assistant/v2/2sDZZGJYnIjSi6H75xk7z0OsBJ0d.ttf) format('truetype');
+}

@@ -1,0 +1,120 @@
+/* Estilos para o card */
+.card {
+    background-color: #004983;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+/* Estilos para a seção de conteúdo */
+.content-wrapper {
+    margin-bottom: 20px;
+}
+
+/* Estilos para o cabeçalho */
+.heading {
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: none;
+    /* Evita transformar o texto em maiúsculas */
+    font-weight: normal;
+    /* Define a fonte como não-negrito */
+    font-family: 'Montserrat', sans-serif;
+    /* Define a fonte como Montserrat */
+}
+
+.custom-blue-text {
+    font-family: 'NOME_DA_FONTE', Montserrat;
+    /* Substitua NOME_DA_FONTE pela fonte desejada */
+    font-size: 16px;
+    /* Substitua 16px pelo tamanho desejado */
+    margin-top: 10px;
+    /* Adicione uma margem superior de 10 pixels */
+    margin-bottom: 10px;
+    /* Adicione uma margem inferior de 10 pixels */
+}
+
+
+/* Estilos para o texto personalizado - Quer saber mais a respeito acima do checkbox */
+.custom-text {
+    font-family: 'NOME_DA_FONTE', Montserrat;
+    font-size: 14px;
+    /* Ajuste o tamanho desejado */
+    font-weight: bold;
+    /* Adiciona negrito (bold) ao texto */
+    margin-top: 20px;
+    /* Adiciona uma margem superior de 10 pixels */
+    margin-bottom: 0px;
+    /* Adiciona 10px de margem abaixo do elemento */
+}
+
+
+/* Estilos para a área de demonstração dos botões */
+.demo {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para o rótulo do interruptor */
+.toggle {
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+/* Estilos para o rótulo do interruptor ativado */
+.toggle__input:checked+.toggle-track .toggle-indicator {
+    transform: translateX(30px);
+    background-color: #61CE70;
+    /* Verde quando ativado */
+}
+
+/* Estilos para a caixa de seleção */
+.toggle__input {
+    display: none;
+}
+
+/* Estilos para a faixa do interruptor */
+.toggle-track {
+    display: block;
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    position: relative;
+    background-color: #ffffff;
+    /* Cinza quando desativado */
+}
+
+/* Estilos para o indicador do interruptor */
+.toggle-indicator {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    transition: transform 0.3s;
+    background-color: #ffffff;
+    /* Azul quando ativado */
+}
+
+/* Estilos para o texto do rótulo do interruptor quando desativado */
+.toggle__input:not(:checked)+.toggle-track .toggle-label {
+    color: #ffffff;
+    /* Cor do rótulo quando desativado (cinza) */
+}
+
+/* Estilos para o rótulo do interruptor ativado */
+.toggle__input:checked+.toggle-track .toggle-label {
+    color: #f7941d;
+    /* Cor do rótulo quando ativado (verde) */
+}
+
+.custom-text {
+    /* Propriedades de estilo */
+    font-size: 16px; /* Tamanho da fonte */
+    color: white; /* Cor do texto branca */
+    font-weight: bold; /* Peso da fonte (negrito) */
+    /* Outras propriedades de estilo, se necessário */
+}
